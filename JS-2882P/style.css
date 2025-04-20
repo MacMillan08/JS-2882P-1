@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #user-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .user-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .user-card h2 {
+    margin-top: 0;
+  }
+  
+  .section {
+    margin-top: 15px;
+  }
+  
+  .section i {
+    margin-right: 8px;
+    color: #555;
+  }
+  
